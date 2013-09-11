@@ -2,3 +2,6 @@ fish_history
 fish_read_history
 fishd.*
 config.local.fish
+current_dir
+fish_history
+
