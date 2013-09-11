@@ -1,1 +1,2 @@
-set -x buzzstarter "/home/quangphan/project/rails/buzzstarter"
+set -x project "/home/quangphan/project"
+set -x buzzstarter "$project/rails/buzzstarter"
