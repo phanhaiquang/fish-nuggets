@@ -8,11 +8,13 @@ alias login_tz='ssh thezipti@66.147.244.52'
 alias login_quang='ssh quang@quang.fantoon.com'
 alias login_buzzstarter='ssh buzzstarter@staging.buzzstarter.com'
 alias login_chef='ssh root@192.241.199.168'
+alias netbeans='~/netbeans-7.3.1/bin/netbeans'
 
 alias apache_restart='sudo /etc/init.d/apache2 restart'
 
 alias sshc='ssh -X -C -c blowfish-cbc,arcfour'
 alias b='~/bin/b'
+alias egrep='egrep --color'
 alias e='/bin/egrep -i --color=auto '
 alias f='~/bin/f'
 alias l='ll'

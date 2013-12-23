@@ -1,7 +1,7 @@
 for p in /usr/bin /usr/local/bin /usr/local/mysql/bin ~/.gem/bin ~/.gem/ruby/1.8/bin ~/bin ~/.config/fish/bin 
-	if test -d $p
-		set -x PATH $p $PATH
-	end
+  if test -d $p
+    set -x PATH $p $PATH
+  end
 end
 
 #add current dir to PATH
@@ -24,5 +24,7 @@ if test -f ~/.config/fish/config.local.fish
   . ~/.config/fish/config.local.fish
 end
 
-#status --is-login; and status --is-interactive; and exec byobu-launcher
-status --is-login; and status --is-interactive; and exec byobu-launcher
+#rvm > /dev/null
+
+cd $buzzstarter
+
